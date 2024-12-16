@@ -28,6 +28,15 @@ img {
     margin: 100px 0;
 }
 
+.section-title {
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    font-size: 3.75rem;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    margin-bottom: 45px;
+}
+
 .container {
     background: #050507;
     color: #fff;
@@ -136,4 +145,25 @@ img {
 /* if #navi click add class active */
 #navi.active {
     transform: translateY(0%);
+}
+
+/* Information */
+#information {
+    margin-bottom: 140px;
+}
+
+#information .info-date-en {
+    display: block;
+    font-size: 1.5rem;
+}
+
+#information .info-time-en {
+    display: block;
+    font-size: 1.125rem;
+}
+
+#information .info-place {
+    font-size: 2.5rem;
+    font-weight: 400;
+    
 }

@@ -128,3 +128,12 @@ img {
 #navi .menu li {
     padding: 10px 0;
 }
+
+#navi .menu li a {
+    display: block;
+}
+
+/* if #navi click add class active */
+#navi.active {
+    transform: translateY(0%);
+}

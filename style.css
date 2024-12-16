@@ -61,3 +61,23 @@ img {
 .logo a {
     display: block;
 }
+
+/* menu */
+.hamburger {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    z-index: 40;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 6px;
+    transition: 0.5s ease-in-out;
+}

@@ -43,6 +43,12 @@ img {
     text-align: center;
 }
 
+.wrapper {
+    max-width: 800px;
+    padding: 0 30px;
+    margin: auto;
+}
+
 /* Mainvisual */
 #mainvisual {
     display: flex;
@@ -198,4 +204,25 @@ img {
 
 #side-btn a:hover {
     opacity: 0.7;
+}
+
+/* Gallery */
+#gallery {
+    margin-bottom: 480px;
+}
+
+#gallery .list li {
+    margin-bottom: 60px;
+}
+
+#gallery .list li img {
+    width: 48%;
+}
+
+#gallery .list li:nth-child(odd) {
+    text-align: left;
+}
+
+#gallery .list li:nth-child(even) {
+    text-align: right;
 }

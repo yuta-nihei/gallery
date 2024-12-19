@@ -230,3 +230,36 @@ li {
 #gallery .list li:nth-child(even) {
     text-align: right;
 }
+
+/* Access */
+#access {
+    margin-bottom: 480px;
+    position: relative;
+    z-index: 20;
+}
+
+#access .place {
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#access .address {
+    margin-bottom: 20px;
+}
+
+#access .contact {
+    margin-bottom: 30px;
+}
+
+#access .btn {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 82px;
+    transition: 0.3s;
+}
+
+#access .btn:hover {
+    background: #050507;
+}

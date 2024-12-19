@@ -345,3 +345,40 @@ li {
 #footer .copyright li:last-child {
     margin-left: 30px;
 }
+
+/* Smartphone */
+@media screen and (max-width: 900px) {
+    .site-title {
+        font-size: 3rem;
+        margin: 50px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Information */
+    #information {
+        margin-bottom: 80px;
+    }
+
+    #information .info-date-en,
+    #information .info-time-en,
+    #information .info-date-ja {
+        font-size: 1rem;
+    }
+
+    #information .info-place {
+        font-size: 2rem;
+    }
+
+    /* Gallery */
+    #gallery {
+        margin-bottom: 280px;
+    }
+
+    #gallery .list li {
+        margin-bottom: 30px;
+    }
+}
+

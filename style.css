@@ -311,3 +311,37 @@ li {
 #contact .btn:hover::after {
     right: -50px;
 }
+
+/* Footer */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #fff;
+    font-size: 0.75rem;
+    padding: 80px 30px;
+    text-align: left;
+}
+
+#footer p {
+    line-height: 1.6;
+}
+
+#footer .sns {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#footer .sns li {
+    margin-right: 15px;
+}
+
+#footer .copyright {
+    display: flex;
+    align-items: center;
+}
+
+#footer .copyright li:last-child {
+    margin-left: 30px;
+}

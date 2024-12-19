@@ -20,6 +20,10 @@ img {
     vertical-align: bottom;
 }
 
+li {
+    list-style: none;
+}
+
 /* Components */
 .site-title {
     font-size: 6.25rem;

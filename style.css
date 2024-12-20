@@ -380,5 +380,35 @@ li {
     #gallery .list li {
         margin-bottom: 30px;
     }
+
+    #gallery .list li img {
+        width: 100%;
+    }
+
+    /* Access */
+    #access {
+        margin-bottom: 280px;
+    }
+
+    /* Contact */
+    #contact .btn {
+        width: 100%;
+    }
+
+    #contact .btn::before,
+    #contact .btn::after {
+        content: none;
+    }
+
+    /* Footer */
+    #footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 60px 30px;
+    }
+
+    #footer .sns {
+        margin-bottom: 30px;
+    }
 }
 

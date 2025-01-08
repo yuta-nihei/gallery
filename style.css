@@ -210,6 +210,29 @@ li {
     opacity: 0.7;
 }
 
+.bg {
+    background: url(img/bg.jpg) center center repeat !important;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 10;
+}
+
+/* Fade In */
+.fadein {
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: 2s;
+}
+
+.fadein.show {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 /* Gallery */
 #gallery {
     margin-bottom: 480px;

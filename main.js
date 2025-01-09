@@ -42,8 +42,14 @@ $(function() {
         } else {
             $('.bg').fadeOut(500);
         }
-    })
-})
+    });
+    // Resize
+    $(window).on('load resize', function() {
+        let scroll = $(window).scrollTop();
+
+        mv_scale(scroll);
+    });
+});
 
 // hamburger menu
 function hamburger() {

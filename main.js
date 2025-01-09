@@ -29,6 +29,19 @@ $(function() {
             $('.logo').fadeOut(500);
             $('.hamburger').fadeOut(500);
         }
+
+        let access_position = $('#access').offset().top - $(window).height();
+        let contact_position = $('#contact').offset().top - $(window).height();
+
+        if(scroll > access_position) {
+            if(scroll < contact_position) {
+                $('.bg').fadeIn(500);
+            } else {
+                $('.bg').fadeOut(500);
+            }
+        } else {
+            $('.bg').fadeOut(500);
+        }
     })
 })
 

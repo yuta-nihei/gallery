@@ -30,8 +30,27 @@ $(function() {
             $('.hamburger').fadeOut(500);
         }
 
+        let gallery_position = $('#gallery').offset().top - $(window).height();
         let access_position = $('#access').offset().top - $(window).height();
         let contact_position = $('#contact').offset().top - $(window).height();
+
+        if(window.innerWidth > 900) {
+            if(scroll > gallery_position) {
+                if(scroll < access_position) {
+                    $('#side-btn').css({
+                        'transform': 'rotate(-90deg) translateY(0)'
+                    });
+                } else {
+                    $('#side-btn').css({
+                        'transform': 'rotate(-90deg) translateY(60px)'
+                    });
+                }
+            } else {
+                $('#side-btn').css({
+                    'transform': 'rotate(-90deg) translateY(60px)'
+                });
+            }
+        }
 
         if(scroll > access_position) {
             if(scroll < contact_position) {
